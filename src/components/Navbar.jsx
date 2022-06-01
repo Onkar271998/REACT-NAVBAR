@@ -1,35 +1,15 @@
-import React from "react";
-
-const Navbar= () => {
-
-    return (
-  
-      <section class="navbar">
-            <h2 class="logo">LOGOBAKERY</h2>
-            <div class="internal-bar">
-            <div>
-                Service
-            </div>
-            <div>
-                Projects
-            </div>
-            <div>
-                About
-            </div>
-            
-                </div>
-                <div class="navbar-button">
-                    <button >Contact</button> 
-                </div>
-             
-            
-        
-        
-  </section>
-    
-    )
-
-    
-
+const Navbar = () => {
+    return <div>
+        <div>LOGOBAKERY</div>
+        <div>
+            <a href="./">Services</a>
+            <a href="./">Project</a>
+            <a href="./">About</a>
+        </div>
+        <div>
+            <button>Contact</button>
+        </div>
+    </div>
 }
-export default Navbar
+
+export default Navbar;
